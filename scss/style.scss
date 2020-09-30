@@ -285,14 +285,14 @@ padding-bottom: 15px;
 
 .resume-project__num1
 {
-    height: 70vh;
-    width: 90vh;
+    height: 30vh;
+    width: 40vh;
 }
 
 .resume-project__num2
 {
-    height: 55vh;
-    width: 99vh;
+    height: 25vh;
+    width: 45vh;
 }
 
 .resume-contact__linkedin, .resume-contact__facebook, .resume-contact__github
@@ -344,14 +344,14 @@ padding-bottom: 15px;
 
 .resume-project__num1
 {
-    height: 70vh;
-    width: 80vh;
+    height: 50vh;
+    width: 70vh;
 }
 
 .resume-project__num2
 {
     height: 45vh;
-    width: 90vh;
+    width: 80vh;
 }
 
 .desktop 
@@ -376,6 +376,10 @@ padding-bottom: 15px;
 {
     background-image: url(../img/background.jpg);
     background-size: 1908px;
+}
+
+.col-3 {
+    text-align: center;
 }
 
 }
