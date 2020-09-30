@@ -1390,15 +1390,15 @@ h2 {
 }
 
 .resume-project__num1 {
-  height: 30vh;
-  width: 47vh;
+  height: 150px;
+  width: 200px;
   border: thick double #525659;
   box-shadow: 10px 5px 5px gray;
 }
 
 .resume-project__num2 {
-  height: 25vh;
-  width: 47vh;
+  height: 120px;
+  width: 230px;
   border: thick double #525659;
   box-shadow: 10px 5px 5px gray;
 }
