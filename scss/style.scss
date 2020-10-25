@@ -19,6 +19,9 @@ header
     background-color : #525659;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav
@@ -36,16 +39,21 @@ nav
 
 .name
 {
-    background-image: url(../img/Florent.jpg);
+    background-image: url(../img/Florent.JPG);
     font-family: 'Bad Script', cursive;
     font-size: 3rem;
-    height: 9em;
+    height: 140vw;
     width: 100%;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
+
+    p{
+        margin-top: 0;
+        margin-bottom: 110vw;
+    }
 }
 
 .resume-about
@@ -94,6 +102,11 @@ h2
     padding-bottom: 10px;
 }
 
+.skills-in-progress 
+{
+    margin-top: 25px;
+}
+
 .logo-skills-all
 {
     width: auto;
@@ -120,16 +133,8 @@ h2
 .resume-project__num1
 {
     height: 50vw;
-    width: auto;
-    overflow: hidden;
-    border: thick double #525659;
-    box-shadow: 10px 5px 5px gray;
-}
-
-.resume-project__num2
-{
-    height: 50vw;
     width: 80vw;
+    overflow: hidden;
     border: thick double #525659;
     box-shadow: 10px 5px 5px gray;
 }
@@ -208,7 +213,7 @@ h2
     }
 }
 
-.resume-project__num1, .resume-project__num2 
+.resume-project__num1
 {
     &:hover {
         transform: scale(1.05);
@@ -265,11 +270,14 @@ header
 
 .name
 {
-    background-image: url(../img/Florent_tab.jpg);
-    height: 15em;
+    background-image: url(../img/Flo_tab.JPG);
+    height: 76vw;
     padding-top: 240px;
     p{
+        margin-top: 0px;
+        margin-bottom: -10vw;
         font-size: 5rem;
+        color: white;
     }
 }
 
@@ -290,11 +298,6 @@ padding-bottom: 15px;
     width: 40vw;
 }
 
-.resume-project__num2
-{
-    height: 25vw;
-    width: 45vw;
-}
 
 .resume-contact__linkedin, .resume-contact__facebook, .resume-contact__github
 {
@@ -304,7 +307,6 @@ padding-bottom: 15px;
 
 .background-container
 {
-    background-image: url(../img/background.jpg);
     background-size: 1908px;
 }
 
@@ -320,14 +322,16 @@ padding-bottom: 15px;
 
 .name
 {
-    background-image: url(../img/circuit_desktop_wallpaper.png);
-    height: 500px;
+    background-image: url(../img/Flo_desktop.jpg);
+    height: 34vw;
     font-size: 1rem;
     padding-top: 150px;
-    color: white;
+    color: black;
 
     p{
-        font-size: 7rem;
+        font-size: 5vw;
+        margin-top: 0px;
+        margin-bottom: -7vw;
     }
 }
 
@@ -341,18 +345,32 @@ padding-bottom: 15px;
     text-align: center;
 }
 
+.resume-projects {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+}
 
+.container-img-text
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
 
 .resume-project__num1
 {
-    height: 50vh;
-    width: 70vh;
+    height: 35vh;
+    width: 50vh;
 }
 
-.resume-project__num2
+.resume-project-text
 {
-    height: 45vh;
-    width: 80vh;
+    width: 50%;
+    margin-left: 5vh;
+    display: flex;
 }
 
 .desktop 
